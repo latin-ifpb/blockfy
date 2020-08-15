@@ -3,7 +3,9 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 
 ### O que precisa para funcionar?
 - Metamask (extensão para navegador) com uma conta logada na rede de testes ethereum Rinkeby
+
 [Baixar para Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask/)
+
 [Baixar para Google Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=pt-BR)
 
 #### Futuras implementações:
