@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "35d7580f967b0d681d850b46499c9e13",
+    "revision": "e254eae5bce22b1840c7d1e0a6d8230f",
     "url": "/blockfy/index.html"
   },
   {
