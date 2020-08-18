@@ -10,7 +10,7 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 
 ### Mantenedores:
 
-[@jvitorsl](http://github.com/jvitorsl) and [@TavaresJonatas](http://github.com/TavaresJonatas)
+[@joaovitorsl](http://github.com/joaovitorsl) and [@TavaresJonatas](http://github.com/TavaresJonatas)
 
 #### Futuras implementações:
 - Truffle Suite
