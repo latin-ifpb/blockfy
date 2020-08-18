@@ -1,4 +1,4 @@
-# Blockfy (beta)
+# Blockfy
 Blockfy é um contador de streams que simula um serviço de streaming para dar transparência aos números de execuções de uma música para o artista, para assim ele ter um controle de quanto deveria receber. A aplicação funciona sob contratos inteligentes feitos em Solidity e executado na rede Ethereum.
 
 ### O que precisa para funcionar?
@@ -11,7 +11,3 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 ### Mantenedores:
 
 [@joaovitorsl](http://github.com/joaovitorsl) and [@TavaresJonatas](http://github.com/TavaresJonatas)
-
-#### Futuras implementações:
-- Truffle Suite
-- Front-end com React
