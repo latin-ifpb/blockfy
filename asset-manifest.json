@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/blockfy/static/css/main.d5a3ab41.chunk.css",
-    "main.js": "/blockfy/static/js/main.6cfe0653.chunk.js",
-    "main.js.map": "/blockfy/static/js/main.6cfe0653.chunk.js.map",
+    "main.css": "/blockfy/static/css/main.5ae23ea3.chunk.css",
+    "main.js": "/blockfy/static/js/main.4a79f77d.chunk.js",
+    "main.js.map": "/blockfy/static/js/main.4a79f77d.chunk.js.map",
     "runtime-main.js": "/blockfy/static/js/runtime-main.17bda62c.js",
     "runtime-main.js.map": "/blockfy/static/js/runtime-main.17bda62c.js.map",
     "static/css/2.9b79e585.chunk.css": "/blockfy/static/css/2.9b79e585.chunk.css",
-    "static/js/2.f76675fd.chunk.js": "/blockfy/static/js/2.f76675fd.chunk.js",
-    "static/js/2.f76675fd.chunk.js.map": "/blockfy/static/js/2.f76675fd.chunk.js.map",
+    "static/js/2.487cd4ec.chunk.js": "/blockfy/static/js/2.487cd4ec.chunk.js",
+    "static/js/2.487cd4ec.chunk.js.map": "/blockfy/static/js/2.487cd4ec.chunk.js.map",
     "index.html": "/blockfy/index.html",
-    "precache-manifest.8e58f918146f193ab6a79858b3486f2a.js": "/blockfy/precache-manifest.8e58f918146f193ab6a79858b3486f2a.js",
+    "precache-manifest.4d0ca58073877f2934c90f6837a4f3b0.js": "/blockfy/precache-manifest.4d0ca58073877f2934c90f6837a4f3b0.js",
     "service-worker.js": "/blockfy/service-worker.js",
     "static/css/2.9b79e585.chunk.css.map": "/blockfy/static/css/2.9b79e585.chunk.css.map",
-    "static/css/main.d5a3ab41.chunk.css.map": "/blockfy/static/css/main.d5a3ab41.chunk.css.map"
+    "static/css/main.5ae23ea3.chunk.css.map": "/blockfy/static/css/main.5ae23ea3.chunk.css.map",
+    "static/media/1.png": "/blockfy/static/media/1.ae958b77.png",
+    "static/media/2.png": "/blockfy/static/media/2.8a839e5a.png",
+    "static/media/3.png": "/blockfy/static/media/3.45c6c5f3.png",
+    "static/media/4.png": "/blockfy/static/media/4.f347678b.png",
+    "static/media/5.png": "/blockfy/static/media/5.84ed76f7.png",
+    "static/media/6.png": "/blockfy/static/media/6.c3c66067.png",
+    "static/media/7.png": "/blockfy/static/media/7.f2a4dce8.png",
+    "static/media/8.png": "/blockfy/static/media/8.0772010c.png",
+    "static/media/9.png": "/blockfy/static/media/9.f15cb8e7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.17bda62c.js",
     "static/css/2.9b79e585.chunk.css",
-    "static/js/2.f76675fd.chunk.js",
-    "static/css/main.d5a3ab41.chunk.css",
-    "static/js/main.6cfe0653.chunk.js"
+    "static/js/2.487cd4ec.chunk.js",
+    "static/css/main.5ae23ea3.chunk.css",
+    "static/js/main.4a79f77d.chunk.js"
   ]
 }
