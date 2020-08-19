@@ -8,6 +8,42 @@
     min-height: 100vh;
 }
 
+.card{
+    width: 25vw;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#tutorial{
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.titleTutorial{
+    display: grid;
+    grid-template-areas:
+    "1 2";
+    justify-content: left;
+    grid-gap: 10px;
+}
+
+.titleTutorial img{
+    width: 3rem;
+}
+
+#manualMetamask{
+    display: grid;
+    grid-template-areas: 
+        "1 2 3"
+        "4 5 6"
+        "7 8 9";
+    grid-gap: 2vw;
+    text-align: center;
+}
+
 #fy{
     color: rgb(0, 119, 255);
 }
@@ -96,4 +132,8 @@ p{
         text-align: center;
         justify-content: center;
     }
+}
+
+.card{
+    min-height: fit-content;
 }

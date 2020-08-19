@@ -5,9 +5,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import "./main.css";
 import Main from "./Main";
+import Tutorial from "./Tutorial";
 
 class App extends Component {
-  state = { web3: null, accounts: null, contract: null };
+        state = { web3: null, accounts: null, contract: null };
 
   componentDidMount = async () => {
     try {
@@ -29,22 +30,24 @@ class App extends Component {
       // example of interacting with the contract's methods.
       this.setState({ web3, accounts, contract: instance }, this.runExample);
     } catch (error) {
-      // Catch any errors for any of the above operations.
-      alert(
-        `Failed to load web3, accounts, or contract. Check console for details.`,
-      );
+        // Catch any errors for any of the above operations.
+        alert(
+          `Failed to load web3, accounts, or contract. Check console for details. (Possível solução: verifique se a extensão Metamask está instalada e se está conectada a rede de testes Rinkeby)`,
+        );
       console.error(error);
     }
   };
 
   render() {
     if (!this.state.web3) {
-      return <div>Loading Web3, accounts, and contract...</div>;
+      return (
+        <Tutorial />
+      );
     }
     return (
       <div className="App">
         <br />
-          <Main config={{accounts: this.state.accounts, contract: this.state.contract}} />
+        <Main config={{ accounts: this.state.accounts, contract: this.state.contract }} />
         <br />
       </div>
     );
