@@ -4,9 +4,36 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 ### O que precisa para funcionar?
 - Metamask (extensão para navegador) com uma conta logada na rede de testes ethereum Rinkeby
 
-[Baixar para Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask/)
+Navegadores suportados:
 
-[Baixar para Google Chrome](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=pt-BR)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/512px-Google_Chrome_icon_%28September_2014%29.svg.png" width="10%" length="10%" title="Chrome" alt="Chrome" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=pt-BR)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Firefox_Logo%2C_2017.png" width="10%" length="10%" title="Firefox" alt="Firefox" />](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask/)
+
+### O que é preciso para rodar localmente?
+- Instale o ambiente de desenvolvimento _Truffle Suite_:
+```
+npm install -g truffle
+```
+- Compile os contratos, executando:
+```
+truffle compile
+```
+- Migre os contratos para a rede:
+```
+truffle migrate
+```
+- Para testar antes de enviar para a rede, use:
+```
+truffle test
+```
+- Acesse o diretório _client_:
+```
+cd client
+```
+- Rode a aplicação _React_:
+```
+npm run start
+```
 
 ### Maintainers
 
