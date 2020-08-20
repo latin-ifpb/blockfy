@@ -12,7 +12,7 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 [<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/512px-Google_Chrome_icon_%28September_2014%29.svg.png" width="10%" length="10%" title="Chrome" alt="Chrome" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=pt-BR)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Firefox_Logo%2C_2017.png" width="10%" length="10%" title="Firefox" alt="Firefox" />](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask/)
 
-### O que precisa para rodar esta aplicacao localmente
+### O que é preciso para rodar esta aplicação localmente?
 - NodeJS v8.9.4 ou superior
 - Truffle Suite
 ```
