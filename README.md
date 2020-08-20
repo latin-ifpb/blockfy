@@ -5,7 +5,7 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 - Metamask (extensão para navegador) com uma conta logada na rede de testes ethereum Rinkeby;
 - Ether para conseguir executar TODAS as funções do Blockfy como addMusic e listenMusic, para isso, depois de seguir o tutorial do Metamask disponível em: https://latin-ifpb.github.io/blockfy/, basta publicar em alguma rede social o endereço metamask, copiar o link da publicação e colar em https://faucet.rinkeby.io/, depois disso pode apagar o post se quiser. E você estará pronto para executar todas as funções.
 
-(Por precisar de extensão, a aplicação não funciona em mobile)
+OBS¹: Por precisar de extensão, a aplicação não funciona em mobile
 
 #### Link do Metamask para:
 
@@ -34,15 +34,15 @@ npm run start
 ```
 
 ### Como eu crio um front-end integrado com smart contract do 0?
-- Registre-se no [Infura](https://infura.io/), crie um novo projeto, mude o endpoint para Rinkeby e copie a URL do endpoint para Rinkeby.
-- Execute os seguites comandos no terminal:
+1. Registre-se no [Infura](https://infura.io/), crie um novo projeto, mude o endpoint para Rinkeby e copie a URL do endpoint para Rinkeby.
+2. Execute os seguites comandos no terminal:
 ```
 npm install truffle-hdwallet-provider
 truffle unbox react
 truffle create contract <nomeDoContrato>
 ```
 
-- Depois de escrito o contrato, mescle o arquivo truffle-config.js com:
+3. Depois de escrito o contrato, mescle o arquivo truffle-config.js com:
 ```
 var HDWalletProvider = require("truffle-hdwallet-provider");
 var mnemonic = "<SUA_CHAVE_DE_BACKUP_METAMASK>";module.exports = {
@@ -64,9 +64,9 @@ var mnemonic = "<SUA_CHAVE_DE_BACKUP_METAMASK>";module.exports = {
 };
 ```
 
-- Na variável mnemonic, troque o valor pela sua chave de backup do Metamask e substitua o link que será retornado em rinkeby pelo que você copiou do INFURA, depois é só seguir os passos que estão em: [O que preciso para rodar esta aplicação localmente](#o-que-precisa-para-rodar-esta-aplicacao-localmente) só que em vez de ```truffle migrate```, usar: ```truffle migrate --network rinkeby```
+4. Na variável mnemonic, troque o valor pela sua chave de backup do Metamask e substitua o link que será retornado em rinkeby pelo que você copiou do INFURA, depois é só seguir os passos que estão em: [O que preciso para rodar esta aplicação localmente](#o-que-é-preciso-para-rodar-esta-aplicação-localmente) só que em vez de ```truffle migrate```, usar: ```truffle migrate --network rinkeby```
 
-Se precisar de uma explicação melhor detalhada: https://medium.com/@andresaaap/how-to-deploy-a-smart-contract-on-a-public-test-network-rinkeby-using-infura-truffle-8e19253870c4
+OBS²: Se precisar de uma explicação melhor detalhada: https://medium.com/@andresaaap/how-to-deploy-a-smart-contract-on-a-public-test-network-rinkeby-using-infura-truffle-8e19253870c4
 
 ### Mantenedores
 [@joaovitorsl](http://github.com/joaovitorsl) and [@TavaresJonatas](http://github.com/TavaresJonatas)
