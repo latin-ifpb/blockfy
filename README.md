@@ -72,7 +72,7 @@ OBS²: Se precisar de uma explicação melhor detalhada: https://medium.com/@and
 [@joaovitorsl](http://github.com/joaovitorsl) e [@TavaresJonatas](http://github.com/TavaresJonatas)
 
 ### Co-autores
-[@katyusco](http://github.com/katyusco) e [@Gildercia](http://github.com/gildercia)
+[@katyusco](http://github.com/katyusco) e [@gildercia](http://github.com/gildercia)
 
 ### Hall da fama
 [![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/0)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/0)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/1)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/1)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/2)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/2)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/3)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/3)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/4)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/4)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/5)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/5)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/6)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/6)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/7)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/7)
