@@ -9,8 +9,9 @@ OBS¹: Por precisar de extensão, a aplicação não funciona em mobile
 
 #### Link do Metamask para:
 
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_%28September_2014%29.svg/512px-Google_Chrome_icon_%28September_2014%29.svg.png" width="10%" length="10%" title="Chrome" alt="Chrome" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=pt-BR)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Firefox_Logo%2C_2017.png" width="10%" length="10%" title="Firefox" alt="Firefox" />](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask/)
+[<img src="https://metamask.io/images/chrome_1chrome.png" width="70px" length="70px" title="Google Chrome" alt="Google Chrome Logo" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+[<img src="https://metamask.io/images/Firefox_1Firefox.png" width="70px" length="70px" title="Mozilla Firefox" alt="Mozilla Firefox Logo" />](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask)
+[<img src="https://metamask.io/images/Edge.png" width="70px" length="70px" title="Microsoft Edge" alt="Microsof Edge Logo" />](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
 
 ### O que é preciso para rodar esta aplicação localmente?
 - NodeJS v8.9.4 ou superior
