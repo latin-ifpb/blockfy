@@ -3,7 +3,7 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 
 ### Vídeo Explicativo
 
-<p align="center"><a href="https://drive.google.com/file/d/1G0LhVs6fRowEtq-sYrdunjpnXZp-CI_o/view?usp=sharing" target="_blank"><img src="https://lh5.googleusercontent.com/ZcKYQw0P_q7gIJLSWbnd5AtbRqpThHRZGJLgCljJDfLqYWwzKOErt7_XQph0JSAGatqMA99bQKqTpcRHR_bu=w1366-h625-rw" width="60%" length="60%" title="Vídeo Explicativo" alt="Vídeo Explicativo" /></a></p>
+<p align="center"><a href="https://lh5.googleusercontent.com/xPvaSViHED2M4_lyLi8_upwuT67VW1swSc0s_X6kEYsS-o-ByOrVcn73sjYEy4Xrj26b_wS6Wt36Lg=w1366-h625-rw" target="_blank"><img src="https://lh5.googleusercontent.com/ZcKYQw0P_q7gIJLSWbnd5AtbRqpThHRZGJLgCljJDfLqYWwzKOErt7_XQph0JSAGatqMA99bQKqTpcRHR_bu=w1366-h625-rw" width="60%" length="60%" title="Vídeo Explicativo" alt="Vídeo Explicativo" /></a></p>
 
 ### O que precisa para funcionar? (Blockfy)
 - Metamask (extensão para navegador) com uma conta logada na rede de testes ethereum Rinkeby;
