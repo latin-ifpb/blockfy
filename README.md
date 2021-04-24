@@ -3,7 +3,7 @@ Blockfy é um contador de streams que simula um serviço de streaming para dar t
 
 ### Vídeo Explicativo
 
-<p align="center"><a href="https://lh5.googleusercontent.com/xPvaSViHED2M4_lyLi8_upwuT67VW1swSc0s_X6kEYsS-o-ByOrVcn73sjYEy4Xrj26b_wS6Wt36Lg=w1366-h625-rw" target="_blank"><img src="https://lh5.googleusercontent.com/ZcKYQw0P_q7gIJLSWbnd5AtbRqpThHRZGJLgCljJDfLqYWwzKOErt7_XQph0JSAGatqMA99bQKqTpcRHR_bu=w1366-h625-rw" width="60%" length="60%" title="Vídeo Explicativo" alt="Vídeo Explicativo" /></a></p>
+[<p align="center"><img src="media/Logotipo do Blockfy.png" width="60%" length="60%" title="Vídeo Explicativo" alt="Vídeo Explicativo" /></p>](https://drive.google.com/file/d/1G0LhVs6fRowEtq-sYrdunjpnXZp-CI_o/view)
 
 ### O que precisa para funcionar? (Blockfy)
 - Metamask (extensão para navegador) com uma conta logada na rede de testes ethereum Rinkeby;
@@ -13,9 +13,9 @@ OBS¹: Por precisar de extensão, a aplicação não funciona em mobile
 
 #### Link do Metamask para:
 
-<a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn" target="_blank"><img src="https://metamask.io/images/chrome_1chrome.png" width="7%" length="7%" title="Google Chrome" alt="Google Chrome Logo" /></a>
-<a href="https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask" target="_blank"> <img src="https://metamask.io/images/Firefox_1Firefox.png" width="7%" length="7%" title="Mozilla Firefox" alt="Mozilla Firefox Logo" /></a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm" target="_blank"><img src="https://metamask.io/images/Edge.png" width="7%" length="7%" title="Microsoft Edge" alt="Microsof Edge Logo" /></a>
+[<img src="https://metamask.io/images/chrome_1chrome.png" width="7%" length="7%" title="Google Chrome" alt="Google Chrome Logo" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+[<img src="https://metamask.io/images/Firefox_1Firefox.png" width="7%" length="7%" title="Mozilla Firefox" alt="Mozilla Firefox Logo" />](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask)
+[<img src="https://metamask.io/images/Edge.png" width="7%" length="7%" title="Microsoft Edge" alt="Microsof Edge Logo" />](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
 
 ### O que é preciso para rodar esta aplicação localmente?
 - NodeJS v8.9.4 ou superior
