@@ -1,0 +1,12 @@
+.card{
+    min-height: fit-content;
+}
+
+.card{
+    width: 25vw;
+}
+
+.card-text{
+    font-weight: bold;
+    font-size: 1rem;
+}
