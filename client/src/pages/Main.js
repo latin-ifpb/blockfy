@@ -1,43 +1,13 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import './style.css';
+import Button from '../components/Button';
+import Input from '../components/TextField';
+import Form from '../components/Form';
+import Display from '../components/Display';
+import { useHistory } from "react-router-dom";
 
-function Input({ name, id, value, onChange }) {
-    return (
-        <input type="text" value={value} onChange={onChange} placeholder={name} className="form-control" id={id} />
-    );
-}
-
-function Button({ name, id, onClick }) {
-    return (
-        <div className="input-group-append">
-            <button className="btn btn-info" onClick={onClick} type="button" id={id}>{name}</button>
-        </div>
-    );
-}
-
-function Form({ nameTxt, idTxt, nameBtn, idBtn, onClick, value, onChange }) {
-    return (
-        <>
-            <div className="input-group mb-3">
-                <Input name={nameTxt} id={idTxt} value={value} onChange={onChange} />
-                <Button name={nameBtn} id={idBtn} onClick={onClick} />
-            </div>
-        </>
-    );
-}
-
-function Display({ id, title, counter }) {
-    return (
-        <div id="display">
-            <div><p id="titleStats"> {title} </p></div> <br />
-            <div id='circle'>
-                <p className='counter' id={id}>{counter}</p>
-                <p>vezes</p>
-            </div>
-        </div>
-    );
-}
-
-const Main = ({ config }) => {
+const Main = ({ status, config }) => {
+    const history = useHistory();
     const [idAdd, setAddId] = useState("");
     const [addressAdd, setAddAddress] = useState("");
     const [idListen, setListenId] = useState("");
@@ -76,32 +46,41 @@ const Main = ({ config }) => {
         setCounterUser(response);
     };
 
+    const error = () => {
+        alert(
+            `Failed to load web3, accounts, or contract. Check console for details. (Possível solução: verifique se a extensão Metamask está instalada e se está conectada a rede de testes Rinkeby)`,
+        );
+    }
+
     return (
         <>
             <div>
                 <div id="header">
-                    <div id='logo'>
+                    <div>
+                        <div id="logo">
                         <h1>BLOCK</h1>
                         <h1 id="fy">FY</h1>
+                        </div>
+                        <p id="sub">* É necessário o metamask instalado no navegador pra realizar qualquer ação.</p>
                     </div>
                     <div id="etherscan">
+                    <Button name="Como instalar o metamask" onClick={() => history.push("/tutorial")} />
                         <a href="https://rinkeby.etherscan.io/address/0x22b5bd3a5cd61677e7c2de7b06e7d262444b02dd">Rastrear pelo Etherscan</a>
                     </div>
                 </div>
             </div>
             <br />
-
             <div id='form'>
                 <div className="input-group mb-3">
                     <Input value={idAdd} onChange={(e) => setAddId(e.target.value)} name="ID da música" id="txtMscAdd" />
                     <Input value={addressAdd} onChange={(e) => setAddAddress(e.target.value)} name="Address do artista" id="txtArtAdd" />
-                    <Button name="Adicionar música" id="btnAdd" onClick={() => addMusic(config)} />
+                    <Button name="Adicionar música" id="btnAdd" onClick={status ? () => addMusic(config) : () => error()} />
                 </div>
 
-                <Form value={idListen} nameTxt="ID da música" idTxt="txtListen" nameBtn="Escutar música" idBtn="btnListen" onChange={(e) => setListenId(e.target.value)} onClick={() => listenMusic(config)} />
-                <Form value={addressArtist} nameTxt="Address do artista" idTxt="txtArt" nameBtn="Estatísticas do artista" idBtn="btnArt" onChange={(e) => setArtist(e.target.value)} onClick={() => artistStats(config)} />
-                <Form value={idMusic} nameTxt="ID da música" idTxt="txtMsc" nameBtn="Estatísticas da música" idBtn="btnMsc" onChange={(e) => setMusic(e.target.value)} onClick={() => musicStats(config)} />
-                <Form value={idMusicUser} nameTxt="ID da música" idTxt="txtUsr" nameBtn="Suas estatísticas" idBtn="btnUsr" onChange={(e) => setUser(e.target.value)} onClick={() => userStats(config)} />
+                <Form value={idListen} nameTxt="ID da música" idTxt="txtListen" nameBtn="Escutar música" idBtn="btnListen" onChange={(e) => setListenId(e.target.value)} onClick={status ? () => listenMusic(config) : () => error()} />
+                <Form value={addressArtist} nameTxt="Address do artista" idTxt="txtArt" nameBtn="Estatísticas do artista" idBtn="btnArt" onChange={(e) => setArtist(e.target.value)} onClick={status ? () => artistStats(config) : () => error()} />
+                <Form value={idMusic} nameTxt="ID da música" idTxt="txtMsc" nameBtn="Estatísticas da música" idBtn="btnMsc" onChange={(e) => setMusic(e.target.value)} onClick={status ? () => musicStats(config) : () => error()} />
+                <Form value={idMusicUser} nameTxt="ID da música" idTxt="txtUsr" nameBtn="Suas estatísticas" idBtn="btnUsr" onChange={(e) => setUser(e.target.value)} onClick={status ? () => userStats(config) : () => error()} />
             </div>
             <br />
 

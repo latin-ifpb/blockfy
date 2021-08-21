@@ -1,31 +1,22 @@
-import React, { useState } from 'react';
-import tutorial1 from "./images/1.png";
-import tutorial2 from "./images/2.png";
-import tutorial3 from "./images/3.png";
-import tutorial4 from "./images/4.png";
-import tutorial5 from "./images/5.png";
-import tutorial6 from "./images/6.png";
-import tutorial7 from "./images/7.png";
-import tutorial8 from "./images/8.png";
-import tutorial9 from "./images/9.png";
-
-function Card({ image, instruction }) {
-    return (
-        <div class="card">
-            <div class="card-body">
-                <p class="card-text">{instruction}</p>
-            </div>
-            <img class="card-img-top" src={image} alt="Imagem de capa do card" />
-        </div>
-    );
-}
+import React from 'react';
+import Card from '../components/Card';
+import './style.css';
+import tutorial1 from "../images/1.png";
+import tutorial2 from "../images/2.png";
+import tutorial3 from "../images/3.png";
+import tutorial4 from "../images/4.png";
+import tutorial5 from "../images/5.png";
+import tutorial6 from "../images/6.png";
+import tutorial7 from "../images/7.png";
+import tutorial8 from "../images/8.png";
+import tutorial9 from "../images/9.png";
 
 const Tutorial = () => {
     return (
         <div id="tutorial">
             <br />
             <div className="titleTutorial">
-                <img src="https://lh3.googleusercontent.com/AWXpXmPH-dW_tkkj1eKu4EYA_HUE76CvMyYHp_MhiWbvS5VpgJWsC1pDRpbocc3EmGwELvh4A2g=w128-h128-e365" />
+                <img src="https://lh3.googleusercontent.com/AWXpXmPH-dW_tkkj1eKu4EYA_HUE76CvMyYHp_MhiWbvS5VpgJWsC1pDRpbocc3EmGwELvh4A2g=w128-h128-e365" alt="Raposa do Metamask"/>
                 <h1>Tutorial do Metamask:</h1>
             </div>
 

@@ -1,0 +1,30 @@
+#display{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#display>*:first-child {
+    align-self: stretch;
+}
+
+#titleStats{
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+#circle{
+    margin-top: 20px;
+    padding-top: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+
+.counter{
+    color: rgb(0, 119, 255);
+    font-weight: bold;
+    font-size: 3.5rem;
+}
