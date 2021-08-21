@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f00378f600f7f98fcab4bfc840d9cd85",
+    "revision": "6a7bd6bd64c447de6e2b1cd046927651",
     "url": "/blockfy/index.html"
   },
   {
-    "revision": "c8d5d451249d5b930729",
-    "url": "/blockfy/static/css/2.9b79e585.chunk.css"
+    "revision": "572792c1deb0089f931a",
+    "url": "/blockfy/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "441bfe44ad3640de4a10",
-    "url": "/blockfy/static/css/main.5ae23ea3.chunk.css"
+    "revision": "e7a3b14f24c13f67dd9c",
+    "url": "/blockfy/static/css/main.f6cff830.chunk.css"
   },
   {
-    "revision": "c8d5d451249d5b930729",
-    "url": "/blockfy/static/js/2.487cd4ec.chunk.js"
+    "revision": "572792c1deb0089f931a",
+    "url": "/blockfy/static/js/2.6943be98.chunk.js"
   },
   {
-    "revision": "441bfe44ad3640de4a10",
-    "url": "/blockfy/static/js/main.4a79f77d.chunk.js"
+    "revision": "e7a3b14f24c13f67dd9c",
+    "url": "/blockfy/static/js/main.634329b4.chunk.js"
   },
   {
     "revision": "63295693c44d0b3cb39a",
