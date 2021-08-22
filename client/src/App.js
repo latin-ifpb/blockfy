@@ -36,7 +36,7 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes status={this.state.web3} config={{ accounts: this.state.accounts, contract: this.state.contract }} />
       </BrowserRouter>
     );
