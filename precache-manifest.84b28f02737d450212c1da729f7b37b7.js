@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6a7bd6bd64c447de6e2b1cd046927651",
+    "revision": "2df80f5c8ac11f32148b01fa68fa74cf",
     "url": "/blockfy/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blockfy/static/css/2.46b578d6.chunk.css"
   },
   {
-    "revision": "e7a3b14f24c13f67dd9c",
+    "revision": "af34ff7712681e80f415",
     "url": "/blockfy/static/css/main.f6cff830.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/blockfy/static/js/2.6943be98.chunk.js"
   },
   {
-    "revision": "e7a3b14f24c13f67dd9c",
-    "url": "/blockfy/static/js/main.634329b4.chunk.js"
+    "revision": "af34ff7712681e80f415",
+    "url": "/blockfy/static/js/main.4a5e837b.chunk.js"
   },
   {
     "revision": "63295693c44d0b3cb39a",
