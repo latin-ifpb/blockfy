@@ -13,9 +13,10 @@ OBS¹: Por precisar de extensão, a aplicação não funciona em mobile
 
 #### Link do Metamask para:
 
-[<img src="https://metamask.io/images/chrome_1chrome.png" width="7%" length="7%" title="Google Chrome" alt="Google Chrome Logo" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
-[<img src="https://metamask.io/images/Firefox_1Firefox.png" width="7%" length="7%" title="Mozilla Firefox" alt="Mozilla Firefox Logo" />](https://addons.mozilla.org/pt-BR/firefox/addon/ether-metamask)
-[<img src="https://metamask.io/images/Edge.png" width="7%" length="7%" title="Microsoft Edge" alt="Microsof Edge Logo" />](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
+[<img src="media\GoogleChrome.png" width="7%" length="7%" title="Google Chrome" alt="Google Chrome Logo" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+[<img src="media/MozillaFirefox.png" width="7%" length="7%" title="Mozilla Firefox" alt="Mozilla Firefox Logo" />](https://addons.mozilla.org/en-US/firefox/addon/ether-metamask)
+[<img src="media\Brave.png" width="7%" length="7%" title="Brave" alt="Brave Logo" />](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
+[<img src="media/MicrosoftEdge.png" width="7%" length="7%" title="Microsoft Edge" alt="Microsof Edge Logo" />](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
 
 ### O que é preciso para rodar esta aplicação localmente?
 - NodeJS v8.9.4 ou superior
@@ -74,10 +75,7 @@ var mnemonic = "<SUA_CHAVE_DE_BACKUP_METAMASK>";module.exports = {
 OBS²: Se precisar de uma explicação melhor detalhada: https://medium.com/@andresaaap/how-to-deploy-a-smart-contract-on-a-public-test-network-rinkeby-using-infura-truffle-8e19253870c4
 
 ### Mantenedores
-[@joaovitorsl](http://github.com/joaovitorsl), [@TavaresJonatas](http://github.com/TavaresJonatas) e [@catarinaramalho](https://github.com/catarinaramalho)
+[@joaovitorsl](http://github.com/joaovitorsl), [@JonatasTavaresS](http://github.com/JonatasTavaresS) e [@catarinaramalho](https://github.com/catarinaramalho)
 
 ### Co-autores
 [@katyusco](http://github.com/katyusco) e [@gildercia](http://github.com/gildercia)
-
-### Hall da fama
-[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/0)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/0)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/1)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/1)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/2)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/2)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/3)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/3)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/4)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/4)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/5)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/5)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/6)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/6)[![](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/images/7)](https://sourcerer.io/fame/joaovitorsl/latin-ifpb/blockfy/links/7)
